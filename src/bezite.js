@@ -3,7 +3,7 @@ const isReactive = (object) => object?.__reactiveVariable__;
 const isHTMLelement = (object) => instanceOf(object, HTMLElement);
 
 export const fragment = ({ children }) => children;
-export const renderer = (mount, component) => mount.append(...component());
+
 export const reactive = (value) => {
   const oldValue = value;
   const effects = new Set();
