@@ -1,0 +1,21 @@
+{
+  "name": "bezite",
+  "version": "1.0.0",
+  "description": "Fast enough for you ideas",
+  "main": "./src/bezite.js",
+  "types": "./src/bezite.d.ts",
+  "type": "module",
+  "keywords": [
+    "javascript"
+  ],
+  "homepage": "https://github.com/Srinath10X/bezite#readme",
+  "bugs": {
+    "url": "https://github.com/Srinath10X/bezite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinath10X/bezite.git"
+  },
+  "license": "MIT",
+  "author": "Srinath10X"
+}
